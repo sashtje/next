@@ -1,17 +1,11 @@
-import Link from "next/link";
+import { NavLink } from "../components/NavLink";
 
 const Index = () => {
   return (
     <main>
       <nav className="navbar">
-        <Link href="/" style={{"margin": "10px"}}
-        >
-          Main
-        </Link>
-        <Link href="/users" style={{"margin": "10px"}}
-        >
-          Users
-        </Link>
+        <NavLink href="/" text="Main" />
+        <NavLink href="/users" text="Users" />
       </nav>
 
       <h1>Main page</h1>
