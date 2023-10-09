@@ -4,11 +4,11 @@ const Index = () => {
   return (
     <main>
       <nav className="navbar">
-        <Link href="/" style={{"textDecoration": "none", "color": "white", "fontSize": "20px", "margin": "10px"}}
+        <Link href="/" style={{"margin": "10px"}}
         >
           Main
         </Link>
-        <Link href="/users" style={{"textDecoration": "none", "color": "white", "fontSize": "20px", "margin": "10px"}}
+        <Link href="/users" style={{"margin": "10px"}}
         >
           Users
         </Link>
